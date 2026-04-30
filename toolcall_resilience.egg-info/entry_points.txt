@@ -1,0 +1,2 @@
+[console_scripts]
+toolcall-resilience = toolcall_resilience.__main__:main
