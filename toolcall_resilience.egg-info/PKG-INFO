@@ -1,3 +1,22 @@
+Metadata-Version: 2.4
+Name: toolcall-resilience
+Version: 0.1.0
+Summary: A resilient tool calling framework with validation, retries, and error handling
+Author: Toolcall Resilience Team
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic>=2.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.21.0; extra == "dev"
+Dynamic: author
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
 # 工具调用容错机制
 
 一个完整的、可运行的"工具调用容错机制"参考实现，专为智能体工具调用场景设计，提供参数校验、格式修复、自动重试、超时处理等完整容错能力。
